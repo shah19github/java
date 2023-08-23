@@ -1,0 +1,15 @@
+//formatting numbers in strings
+import java .text.*;
+public class App
+{
+    public Static void main (String[]args)
+    {
+       double value =1.23456789;
+       NumberFormat nf=Number Format.getNumber Instance();
+
+       nf.setMaximum Fraction Digits(6);
+       String s=nf.format(value);
+
+       System.out.println(s);
+       }
+ }
