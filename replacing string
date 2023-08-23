@@ -1,0 +1,11 @@
+public class App
+{
+    public static void main(String[]args)
+{
+           String s1="i have deawn a nice drawing";
+                  System.out.println("the first occurance of \"draw\"is"+"at location"+s1.index of ("draw"));
+                  System.out.println("the last occurance of \"draw\" is"+"at location"+s1.last index of ("draw"));
+           String s2="shubh, you are hired";
+                  System.out.println(s2.replace('h','f'));
+}
+}
